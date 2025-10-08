@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -14,17 +14,11 @@ const CTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg">
-              <Mail className="mr-2 h-5 w-5" />
-              Email Us
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground text-primary-foreground hover:bg-primary-foreground/20"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              Call Now
+            <Button variant="hero" size="lg" className="text-lg" asChild>
+              <a href="mailto:info@apogeeinc.com">
+                <Mail className="mr-2 h-5 w-5" />
+                Email Us
+              </a>
             </Button>
           </div>
         </div>

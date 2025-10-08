@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import binocularsIcon from "@/assets/binoculars-icon.png";
-import safeIcon from "@/assets/safe-icon.png";
-import gearIcon from "@/assets/gear-icon.png";
+import campingIcon from "@/assets/camping-icon.png";
+import adventureIcon from "@/assets/adventure-icon.png";
 
 const products = [
   {
@@ -10,14 +10,14 @@ const products = [
     icon: binocularsIcon,
   },
   {
-    title: "Gun Safes",
-    description: "Secure, reliable storage solutions to protect your firearms",
-    icon: safeIcon,
+    title: "Camping Gear",
+    description: "Essential camping equipment for your outdoor adventures",
+    icon: campingIcon,
   },
   {
     title: "Outdoor Gear",
-    description: "Complete line of hunting and camping equipment for every adventure",
-    icon: gearIcon,
+    description: "Complete equipment for fishing, astronomy, backpacking, and climbing adventures",
+    icon: adventureIcon,
   },
 ];
 
