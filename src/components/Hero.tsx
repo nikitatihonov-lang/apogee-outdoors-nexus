@@ -20,12 +20,16 @@ const Hero = () => {
           From bird watching binoculars to gun safes, we provide quality gear for every outdoor enthusiast
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-          <Button variant="hero" size="lg" className="text-lg">
-            Explore Products
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg bg-background/10 backdrop-blur-sm border-primary-foreground text-primary-foreground hover:bg-background/20">
-            Learn More
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-lg"
+            asChild
+          >
+            <a href="https://armabear.com" target="_blank" rel="noopener noreferrer">
+              Explore Products
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </div>

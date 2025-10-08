@@ -7,8 +7,8 @@ const About = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About Apogee Inc.</h2>
           <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-            For over two decades, Apogee Inc. has been the trusted choice for hunting and outdoor enthusiasts. 
-            We specialize in producing, distributing, and selling premium equipment that enhances every outdoor experience.
+            Apogee Inc. is the trusted choice for hunting and outdoor enthusiasts. 
+            Built by experienced industry professionals, we specialize in producing, distributing, and selling premium equipment that enhances every outdoor experience.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
